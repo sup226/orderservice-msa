@@ -33,7 +33,7 @@ spring:
       region:
         static: ap-northeast-2
       s3:
-        bucket: orderservice-prod-img8917
+        bucket: orderservice-prod-img9460
 
 
 jwt:

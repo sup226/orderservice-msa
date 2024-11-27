@@ -12,6 +12,13 @@ spring:
     password: guest
   cloud:
     gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]': # 모든 경로에 대한 CORS 설정
+            allowed-origins: "http://localhost:3000"
+            allowed-methods: "*"
+            allowed-headers: "*"
+            allow-credentials: true
       default-filters:
         - name: GlobalFilter
           args:

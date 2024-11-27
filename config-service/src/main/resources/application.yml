@@ -16,7 +16,7 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///Users/stephen/Desktop/develop/git-local-repo
+          search-locations: C:\\Users\\playdata2\\Desktop\\develop\\git-local-repo
         git:
           # 호스트 키는 SSH 프로토콜을 통해 Git 저장소에 접근할 때 Git 서버의 신뢰성을 검증하기 위한
           # 호스트 키를 제공해야 합니다.
@@ -26,7 +26,9 @@ spring:
           host-key-algorithm: "ssh-rsa"
           private-key: |
             -----BEGIN EC PRIVATE KEY-----
-            생성된 프라이빗 키를 넣으세요!
+            MHcCAQEEIL6v+6jtNhvb9Bx4ERPNk7AnjUMLLe3y/6sYDYT1PTgGoAoGCCqGSM49
+            AwEHoUQDQgAEj3kyB0gB88zQ4kJ/5s+XfCa+k91NmBtmBCoMOB2CRiYFr+RDCAGJ
+            8uA9s7vRDnyUDIhUkMY6yMNqJeeQwYwh/Q==
             -----END EC PRIVATE KEY-----
 
 
